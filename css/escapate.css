@@ -1,1 +1,13 @@
-/*# sourceMappingURL=escapate.css.map */
+.mejores_destinos .titulo_destinos {
+  padding: 30px;
+}
+.mejores_destinos .carta {
+  padding-bottom: 40px;
+}
+.mejores_destinos .carta img {
+  width: 288px;
+  height: 160px;
+}
+.mejores_destinos .carta .card .card-text {
+  text-align: center;
+}/*# sourceMappingURL=escapate.css.map */

@@ -6,9 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Somos una empresa que busca la satisfación del Turista, brindando lo mejor del Perú profundo y moderno, llevando experiencia de aventura y cutlura a un nuevo nivel">
   <meta name="keywords"  content="TURISMO, AVENTURA, PERU">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="icon" href="../imagenes/favicon.ico">
   <title>Destinos Perú</title>
   <link rel="stylesheet" href="../css/custom.css">
   <link rel="stylesheet" href="../css/estilo.css">
+  <link rel="stylesheet" href="../css/alojamiento.css">
   <link href="../assets/fontawesome/css/all.css" rel="stylesheet">
 </head>
 <body>
@@ -20,23 +23,23 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <a class="navbar-brand" href="#">
-            <img class="logo" src="./imagenes/logo_turismo.png" alt="logo_de_pagina">
+            <img class="logo" src="../imagenes/logo_turismo.png" alt="logo_de_pagina">
           </a>
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active logo_name" aria-current="page" href="../index.html">DESTINOS PERÚ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="./escapate.html">Escápate a...</a>
+              <a class="nav-link btn-menu" aria-current="page" href="./escapate.html">Escápate a...</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="./alojamiento.html">Alojamiento</a>
+              <a class="nav-link active btn-menu" href="./alojamiento.html">Alojamiento</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./paquetes.html">Paquetes</a>
+              <a class="nav-link btn-menu" href="./paquetes.html">Paquetes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./contactanos.html">Contactanos</a>
+              <a class="nav-link btn-menu" href="./contactanos.html">Contactanos</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -53,35 +56,24 @@
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000">
-          <img src="./imagenes/Machu Picchu.jpg" height="700 px" class="d-block w-100" alt="Machu Picchu">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>UNA DE LAS 7 MARAVILLAS DEL MUNDO</h5>
-            <p>Macchu Picchu, las ruinas de la antigua ciudad incaica, construida en el siglo XV, están situadas en lo alto de la cordillera oriental de los Andes peruanos.</p>
-          </div>
+          <img src="../imagenes/carrusel 3.jpg" height="700 px" class="d-block w-100" alt="Imagen">
         </div>
         <div class="carousel-item" data-bs-interval="2000">
-          <img src="./imagenes/Costa Peruana.jpg" height="700 px" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
-          </div>
+          <img src="../imagenes/carrusel 4.jpg" height="700 px" class="d-block w-100" alt="Imagen">
         </div>
         <div class="carousel-item">
-          <img src="./imagenes/machu.png" height="700 px" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-          </div>
+          <img src="../imagenes/carrusel 5.jpg" height="700 px" class="d-block w-100" alt="Imagen">
         </div>
         <div class="carousel-item">
-          <img src="./imagenes/machu.png" height="700 px" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-          </div>
+          <img src="../imagenes/carrusel 1.jpg" height="700 px" class="d-block w-100" alt="Imagen">
+        </div>
+        <div class="carousel-item">
+          <img src="../imagenes/carrusel 2.jpg" height="700 px" class="d-block w-100" alt="Imagen">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
@@ -94,146 +86,103 @@
       </button>
     </div>
   </section>
-  <section class="experiencias">
-    <div>
-      <h1>
-        titulos de experiencias
-      </h1>
-      <div class="container text-center listado_experiencia">
-        <div class="row justify-content-center">
-          <div class="col-1">
-            <i class="fa-solid fa-church"></i>
-            Religión
-          </div>
-          <div class="col-1">
-            <i class="fa-solid fa-champagne-glasses"></i>
-            gastronomia
-          </div>
-          <div class="col-1">
-            <i class="fa-solid fa-person-hiking"></i>
-            aventura
-          </div>
-          <div class="col-1">
-            <i class="fa-solid fa-landmark"></i>
-            historico cultural
-          </div>
-          <div class="col-1">
-            <i class="fa-solid fa-masks-theater"></i>
-            entretenimiento
-          </div>
-          <div class="col-1">
-            <i class="fa-solid fa-phone-volume"></i>
-            guia telefonica
-          </div>
-        </div>
+  <section class="hotel">
+    <h1 class="animate__animated animate__backInDown titulo_hotel">
+      LOS MEJORES HOTELES PERUANOS SE ENCUENTRAN EN SUDAMERICA
+    </h1>
+    <div class="noticia">
+      <img src="../imagenes/hotel 1.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="Imagen">
+      <div class="texto_hotelnoticia">
+        <h1>
+          HOTEL TAMBO DEL INCA
+        </h1>
+        <p>
+          El Tambo Del Inka A Luxury Collection Resort And Spa Urubamba cuenta con una ubicación privilegiada a 14 minutos a pie del Santuario del Señor Torrechayoc, y ofrece 128 habitaciones, así como un salón compartido y una piscina exterior. El Valle Sagrado de los Incas está a 4,6 km del Tambo Del Inka A Luxury Collection Resort And Spa.
+          
+          Ubicación
+          El lugar está situado en las afueras de la Iglesia de Urubamba, a solo 5 minutos andnando del centro de la ciudad. Este hotel se encuentra justo al lado del Mercado Moderno de Urubamba y a 55 km del Aeropuerto Internacional de Cuzco. Una proximidad de 10 minutos en coche de las Salinas de Maras es una ventaja para los huéspedes que se alojen en el Tambo Del Inka A Luxury Collection Resort And Spa. El hotel está a 5 minutos andando de la estación de autobús las Combis.
+
+        </p>
       </div>
     </div>
-    <div class="container descripcion_experiencia" style="width: 100%;">
-      <div>
-        <img src="/imagenes/machu.png" height="500px" width="100%"  alt="">
-      </div>
-      <div>
-        <div class="row justify-content-center">
-          <div class="col-3">
-            <div class="card" style="width: 18rem;">
-              <img src="./imagenes/llamita.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
+  </section>
+  <section class="paginas_hoteles">
+    <div class="row justify-content-center hoteles_tres">
+      <div class="col-12 col-md-5">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../imagenes/paquetes san blasjpg.webp" class="img-fluid rounded-start" alt="hoteles">
             </div>
-          </div>
-          <div class="col-3">
-            <div class="card" style="width: 18rem;">
-              <img src="./imagenes/llamita.jpg" class="card-img-top" alt="...">
+            <div class="col-md-8">
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Antigua Casona San Blas</h5>
+                <p class="card-text">Descubre por qué tantos viajeros ven Antigua Casona San Blas como el hotel ideal cuando visitan Cuzco. Además de aportar la combinación ideal de calidad, comodidad y ubicación.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="destinos_favoritos">
-    <div class="container">
-      <ul class="list-group">
-        <li class="list-group-item">
-          <div class="card text-bg-dark">
-            <img src="./imagenes/llamita.jpg" class="card-img" alt="...">
-            <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small>Last updated 3 mins ago</small></p>
+      <div class="col-12 col-md-5">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../imagenes/paquete mancora bay" class="img-fluid rounded-start" alt="hoteles">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Mancora Bay</h5>
+                <p class="card-text">Nuestro hotel esta ubicado en la playa de Mancora, frente al mar , a 4 minutos de caminata por la playa del surf point y frente al kitesurfing point,uds pueden lounge sus cometas al frente del hotel.</p>
+              </div>
             </div>
           </div>
-        </li>
-        <li class="list-group-item">
-          <div class="card text-bg-dark">
-            <img src="./imagenes/llamita.jpg" class="card-img" alt="...">
-            <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small>Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        </li>
-        <li class="list-group-item">
-          <div class="card text-bg-dark">
-            <img src="./imagenes/llamita.jpg" class="card-img" alt="...">
-            <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small>Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        </li>
-        <li class="list-group-item">
-          <div class="card text-bg-dark">
-            <img src="./imagenes/llamita.jpg" class="card-img" alt="...">
-            <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small>Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        </li>
-        <li class="list-group-item">
-          <div class="card text-bg-dark">
-            <img src="./imagenes/llamita.jpg" class="card-img" alt="...">
-            <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small>Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </section>
-  <section class="video">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-4">
-          <h4>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam velit sint mollitia ipsa. Culpa deserunt alias laudantium! Consequuntur, ad. Non totam, animi doloremque est unde autem in laborum deserunt soluta.
-          </h4>
-        </div>
-        <div class="col-6">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/kTdfS_01kxk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-          </iframe>
         </div>
       </div>
+      <div class="col-12 col-md-5">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../imagenes/paquete santa rosa ayacucho" class="img-fluid rounded-start" alt="hoteles">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Hotel Santa Rosa Ayacucho</h5>
+                <p class="card-text">Ubicados a media cuadra del centro, a 15 minutos del aeropuerto, con acceso a pie a todos los servicios principales de la ciudad y rodeado de las mejores iglesias del Perú.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>     
     </div>
   </section>
   <footer>
-    <div class="card text-bg-dark">
-      <img src="..." class="card-img" alt="...">
-      <div class="card-img-overlay">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small>Last updated 3 mins ago</small></p>
+    <section class="fin_pagina">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-4">
+            <img src="../imagenes/logo_turismo.png" alt="ir a menu">
+            <a href="#top">Ir a Menú</a>
+          </div>
+          <div class="col-3">
+            <h2><font color="red">VIVA </font><font color="red">MI </font><font color="red">PERU</font> </h2>
+          </div>
+          <div class="col-3">
+            <a href="https://es.wikipedia.org/wiki/Per%C3%BA" target="_blank"><img src="../imagenes/mapaperu.png" alt="Mapa del Perú"></a>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-4">
+            <object data="../imagenes/facebook.svg" idth="30" height="30"></object>
+            <object data="../imagenes/Instagram.svg" idth="30" height="30"></object>
+            <object data="../imagenes/whastapp.svg" idth="30" height="30"></object>
+            <object data="../imagenes/twitter.svg" idth="30" height="30"></object>
+          </div>
+          <div class="col-6">
+          &#169 2007 - 2023. All rights reserved. Reproduction without explicit permission is prohibited.
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>

@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"paquetes.css"}
+{"version":3,"sources":["../scss/paquetes.scss","paquetes.css"],"names":[],"mappings":"AAAA;EACE,aAAA;EACA,eAAA;EACA,uBAAA;ACCF;ADCE;EACE,WAAA;ACCJ;ADEI;EACE,kBAAA;EACA,eAAA;EACA,WAAA;ACAN;ADGI;EACE,kBAAA;EACA,eAAA;EACA,WAAA;ACDN","file":"paquetes.css"}

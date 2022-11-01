@@ -1,1 +1,25 @@
-/*# sourceMappingURL=alojamiento.css.map */
+.hotel {
+  margin: 0%;
+  padding: 0;
+}
+.hotel .titulo_hotel {
+  margin: 40px;
+}
+.hotel .noticia {
+  box-sizing: border-box;
+}
+.hotel .noticia img {
+  width: 560px;
+  height: 400px;
+  margin-right: 70px;
+}
+.hotel .noticia .texto_hotelnoticia {
+  padding: 50px;
+  height: 430px;
+}
+
+.paginas_hoteles .hoteles_tres .card img {
+  width: 170px;
+  height: 150px;
+  margin-top: 6px;
+}/*# sourceMappingURL=alojamiento.css.map */
