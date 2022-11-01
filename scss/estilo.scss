@@ -89,7 +89,6 @@ h1{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        cursor: pointer;
         
         i{
           font-size: 50px;
@@ -165,11 +164,24 @@ h1{
 }
 
 .fin_pagina{
-  img{
+  
+  .mapa img{
     width: 180px;
+  }
+  .final a img{
+    width: 70px !important;
   }
 }
 
 a:hover{
   cursor: url('../imagenes/cursor_pointer.svg'), pointer;
+}
+
+footer{
+  margin-bottom: 10px;
+
+  a{
+    cursor: url('../imagenes/cursor_pointer.svg'), pointer;
+
+  }
 }

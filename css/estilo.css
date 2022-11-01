@@ -88,7 +88,6 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  cursor: pointer;
 }
 .experiencias .experiencias_contenido .listado_experiencia .col-1 i {
   font-size: 50px;
@@ -139,10 +138,20 @@ h1 {
   margin-bottom: 30px;
 }
 
-.fin_pagina img {
+.fin_pagina .mapa img {
   width: 180px;
+}
+.fin_pagina .final a img {
+  width: 70px !important;
 }
 
 a:hover {
+  cursor: url("../imagenes/cursor_pointer.svg"), pointer;
+}
+
+footer {
+  margin-bottom: 10px;
+}
+footer a {
   cursor: url("../imagenes/cursor_pointer.svg"), pointer;
 }/*# sourceMappingURL=estilo.css.map */
